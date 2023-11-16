@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.container {
+    /* định nghĩa việc sử dụng flex */
+  display: flex;
+  /* là thuộc tính phụ thuộc theo flex box */
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+  flex: 1;
+
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    display: flex
+
+}
+
+.box-1 {
+    background-color: linear-gradient(#ee4d2d,#ff7337);
+}
+
+.box-2 {
+    background-color: yellow;
+    flex: 2;
+
+}
+ .box-3 {
+    background-color: aqua;
+
+ }
+ .box4,.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+ }
+ .header {
+background:linear-gradient(#ee4d2d,#ff7337);
+height: 100px;
+width: 100%;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 0 24px;
+
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.item-info {
+    position: relative;
+}
+.item-info:hover > .list-option{
+    display: block;
+}
+.list-option {
+    position: absolute;
+    background-color: red;
+    width: 150px;
+    border-radius: 4px;
+    right: 0 ;
+    top: 30px;
+}
+.list-option::after {
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+    position: absolute;
+    top: -10px;
+    right: 19px;
+}
+.option {
+    padding: 8px 16pzx;
+    cursor: pointer;
+}
+.option:hover {
+    background-color: #d2bbbb;
+}

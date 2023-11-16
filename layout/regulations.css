@@ -1,0 +1,33 @@
+/* Import font chữ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* Import các file */
+
+
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font body */
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+/* thuộc tính flex */
+.q-flex {
+    display: flex;
+}
+
+.q-justify-center {
+    justify-content: center;
+}
+
+.q-justify-between {
+    justify-content: space-between;
+}

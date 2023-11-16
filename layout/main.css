@@ -1,0 +1,23 @@
+.main {
+    background-color: antiquewhite;
+    width: 100%;
+    height: calc(100vh - 56px);
+    display: flex;
+    gap: 24px;
+
+}
+
+.main-left {
+    background-color:yellow ;
+    flex: 1;
+}
+
+.mai-content {
+    background-color: yellowgreen;
+    flex: 3;
+}
+
+.main-right {
+    background-color: blueviolet;
+    flex: 1;
+}

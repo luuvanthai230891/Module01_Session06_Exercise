@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    margin: 20px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 100%;
+
+}
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.heading {
+    font-size: 30px;
+    line-height: 100%;
+    color: black;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px;
+}
+.content-top {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.content-top-left {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-image: url("https://xwatch.vn/upload_images/images/2023/01/31/hanh-trinh-ve-phuong-dong.jpg");
+}
+.label-1 {
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+ 
+}
+.label-2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    flex: 1;
+}
+.button {
+    width: 50%;
+    height: 36px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    background-color: white;
+    flex: 1;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color: bisque;
+
+}
+.content-top-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-image: url("https://ohay.vn/blog/wp-content/uploads/2020/04/sach-hay-ve-cuoc-song-1.11.jpg");
+}
+.content-center {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.content-bot {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.form-bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+

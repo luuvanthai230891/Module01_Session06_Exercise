@@ -1,0 +1,27 @@
+* 1 số kĩ thuật xây dựng layout
+ + position
+ + Float
+ + Table
+ + Flex box---->
+ + Grid 
+
+ - Mô hình flex box
+ + Khi sử dụng thuộc tính display : flex thì trục main axis mặc định nằm ngang và đc định nghĩa bên trong flex-container (khối cha)
+ + Display flex -> định nghĩa sử dụng flex và làm cho các item lên cùng 1 hàng
+   + justify-content: được sử dụng trong khối cha container, luôn luôn đi theo main axis khi display: flex
+  - flex-start: căn các item sang bên trái
+  - flex-end: căn các item sang bên phải
+  - flex-center: căn các item ra giữa
+  - space-around: dàn các item ra xa nhau lấy center làm trục, khoảng cách giữa các item bằng nhau
+
+  - space-between: giàn các item ra xa nhau và (item sát lề)
+  - space-evenly: giàn các item ra xa nhau và khoảng cách giữa chúng đều nhau 
+
+  + align-items: Được sử dụng với flex-container và luôn đi theo trục cross axis
+   - flex-start
+   - flex-end
+   - center
+
+  + gap: dùng để giãn đều các item theo 1 đơn vị nào đó (px,%...)
+  + flex-wrap : cho phép các item dc xuống dòng khi chiều dài của nó không đủ
+  + flex: dùng để kéo dài diện tích các item dựa vào chỉ số của nó
